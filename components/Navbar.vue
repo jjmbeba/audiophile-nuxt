@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import menu from "../assets/images/menu.svg";
+import menu from "../assets/shared/tablet/icon-hamburger.svg";
 import cart from "../assets/images/cart.svg";
 import logo from "../assets/images/logo.svg";
 import { cn } from "@/utils";
