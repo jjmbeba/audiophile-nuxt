@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pt-[108px] md:pt-[126px] pb-[112px] md:pb-[167px] lg:pb-[158px] text-center lg:text-left px-[24px] md:px-[39px] lg:px-[165px] text-white"
+    class="pt-[108px] md:pt-[126px] pb-[112px] md:pb-[167px] lg:pb-[158px] text-center lg:text-left text-white"
   >
     <img
       :src="bgMobile"
@@ -14,8 +14,8 @@
     />
     <img
       :src="bgDesktop"
-      class="absolute top-[0px] left-0 h-[723px] z-0 hidden lg:block"
-      alt="background-image-tablet"
+      class="absolute top-[0px] left-0 h-[723px] w-full z-0 hidden lg:block"
+      alt="background-image-desktop"
     />
     <h3
       class="text-[14px] leading-normal tracking-[10px] font-normal opacity-[0.4964]"
@@ -34,7 +34,7 @@
       the passionate music enthusiast.
     </p>
     <div class="mt-[43px] md:mt-[40px] relative">
-      <PrimaryButton :text="'see product'" />
+      <PrimaryButton :link="'/products/'" :background="'orange'" :text="'see product'" />
     </div>
   </div>
 </template>

@@ -8,7 +8,11 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'product-1-mobile':"url('./assets/home/mobile/image-speaker-zx7.jpg')"
+      }
+    },
   },
   plugins: [],
 }

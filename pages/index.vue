@@ -1,7 +1,9 @@
 <template>
-    <div>
-      <Hero/>
-      <Categories/>
+  <div>
+    <div class="px-[24px] md:px-[39px] lg:px-[165px]">
+      <Hero />
+      <Categories />
+      <Products />
     </div>
-  </template>
-  
+  </div>
+</template>
