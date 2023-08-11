@@ -1,5 +1,5 @@
 <template>
-    <div class=" pt-[120px] md:pt-[96px] pb-[120px]">
+    <div class=" pt-[120px] md:pt-[96px]">
         <HighlightedProduct/>
         <div class="mt-[24px] md:mt-[32px]">
             <ProductCardLarge/>

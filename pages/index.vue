@@ -4,6 +4,7 @@
       <Hero />
       <Categories />
       <Products />
+      <About/>
     </div>
   </div>
 </template>
